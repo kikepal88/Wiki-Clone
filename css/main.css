@@ -36,12 +36,81 @@ main .main-logo-title p {
 }
 
 main .main-lenguages {
-  margin-top: 30px;
+  margin-top: 16px;
   width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+main .main-lenguages-link1 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 80px;
+  font-weight: 700;
+}
+
+main .main-lenguages-link2 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 80px;
+}
+main .main-lenguages-link3 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 140px;
+}
+
+main .main-lenguages-link4 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 140px;
+}
+main .main-lenguages-link5 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 150px;
+}
+
+main .main-lenguages-link6 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 150px;
+}
+main .main-lenguages-link7 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 140px;
+}
+
+main .main-lenguages-link8 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 140px;
+}
+main .main-lenguages-link9 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 80px;
+}
+
+main .main-lenguages-link10 {
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  padding-left: 80px;
 }
 
 main .main-lenguages a strong {
-  font-size: 16px;
+  font-size: 15px;
   margin: 0;
   color: #36c;
 }
