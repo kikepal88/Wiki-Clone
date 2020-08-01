@@ -119,3 +119,38 @@ main .main-lenguages a p {
   margin-top: 5px;
   color: #54595d;
 }
+
+main .main-search {
+  margin-top: 25px;
+  width: 100%;
+  padding: 0;
+}
+
+main .main-search-container {
+  display: flex;
+  justify-content: center;
+  height: 40px;
+}
+
+.main-search-container .input {
+  width: 400px;
+  height: 45px;
+  border: 1px solid rgb(162 169 177);
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+}
+
+.main-search-container .icon {
+  width: 60px;
+  height: 45px;
+  background-image: url(https://raw.githubusercontent.com/wikimedia/portals/3ade52e238918bb4f72f83fe702b5d1af478b273/dev/wikipedia.org/assets/img/sprite_assets/search-icon.svg);
+  background-repeat: no-repeat;
+  background-color: #36c;
+  background-size: 25px 25px;
+  background-position: center;
+  border: 1px solid #36c;
+  margin: 0;
+  padding: 0;
+  border-radius: 2px;
+}
