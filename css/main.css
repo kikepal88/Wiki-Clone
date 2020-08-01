@@ -32,7 +32,8 @@ main .main-logo-title img {
 main .main-logo-title p {
   font-family: "Times New Roman", Times, serif;
   margin: 10px;
-  font-size: 17px;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 main .main-lenguages {
@@ -47,7 +48,6 @@ main .main-lenguages-link1 {
   display: flex;
   justify-content: flex-end;
   padding-right: 80px;
-  font-weight: 700;
 }
 
 main .main-lenguages-link2 {
@@ -122,6 +122,7 @@ main .main-lenguages a p {
 
 main .main-search {
   margin-top: 25px;
+  margin-bottom: 40px;
   width: 100%;
   padding: 0;
 }
@@ -141,6 +142,14 @@ main .main-search-container {
   border-radius: 2px;
 }
 
+.main-search-container .input:hover {
+  border: 1px solid #72777d;
+}
+
+.main-search-container .input:focus {
+  outline-color: #36c;
+}
+
 .main-search-container .icon {
   width: 60px;
   height: 45px;
@@ -153,4 +162,62 @@ main .main-search-container {
   margin: 0;
   padding: 0;
   border-radius: 2px;
+}
+
+main .main-button-container {
+  text-align: center;
+  padding: 5px;
+}
+
+main .main-button-lenguage {
+  width: 35px;
+  height: 35px;
+  background-image: url(https://raw.githubusercontent.com/wikimedia/portals/3ade52e238918bb4f72f83fe702b5d1af478b273/dev/wikipedia.org/assets/img/sprite_assets/language-icon.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 20px 20px;
+  padding: 0px;
+  margin: 0;
+  margin-right: 15px;
+}
+
+main .main-button {
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  background-color: #f8f9fa;
+  color: #36c;
+  border: 1px solid #a2a9b1;
+}
+
+main .main-button-arrow {
+  width: 35px;
+  height: 35px;
+  background-image: url(https://raw.githubusercontent.com/wikimedia/portals/3ade52e238918bb4f72f83fe702b5d1af478b273/dev/wikipedia.org/assets/img/sprite_assets/arrow-down-blue.svg);
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  background-size: 15px 15px;
+  padding: 0px;
+  margin: 0;
+  margin-left: 15px;
+}
+
+main .main-button:hover {
+  background-color: white;
+  cursor: pointer;
+}
+
+hr {
+  border: none;
+  border-bottom: 0.5px solid #c8ccd1;
+  margin: 30px 15px 15px 20px;
 }
