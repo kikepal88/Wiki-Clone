@@ -246,6 +246,7 @@ footer .footer-wikidescription p {
   margin: 0px 0px 0px 10px;
   color: #54595d;
   font-size: 14px;
+  line-height: 19.5px;
 }
 
 footer .footer-wikidescription p a {
@@ -270,8 +271,24 @@ footer .footer-wikidownload-text {
   width: 300px;
 }
 
+footer .footer-wikidownload-text a {
+  font-size: 14px;
+  color: #36c;
+  font-weight: bold;
+}
+
+footer .footer-wikidownload-text p {
+  color: #54595d;
+  font-size: 14px;
+  line-height: 19.5px;
+}
+
 footer .footer-wikidownload-app {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: flex-end;
+}
+
+footer .footer-wikidownload-app a {
+  margin-right: 10px;
 }
