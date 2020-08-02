@@ -292,3 +292,31 @@ footer .footer-wikidownload-app {
 footer .footer-wikidownload-app a {
   margin-right: 10px;
 }
+
+footer .footer-right {
+  width: 65%;
+  padding: 15px;
+}
+
+footer .footer-right-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+footer .footer-right-app {
+  display: flex;
+  font-size: 14px;
+  width: 33%;
+  padding: 5px;
+}
+
+footer .footer-right-app-text .title {
+  color: #36c;
+  margin: 0 0 5px 10px;
+}
+
+footer .footer-right-app-text .text {
+  color: #54595d;
+  margin: 0 0 0 10px;
+  font-size: 13px;
+}
