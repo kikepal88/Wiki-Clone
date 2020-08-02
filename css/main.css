@@ -221,3 +221,57 @@ hr {
   border-bottom: 0.5px solid #c8ccd1;
   margin: 30px 15px 15px 20px;
 }
+
+footer {
+  width: 100%;
+  margin: 0;
+  padding: 15px;
+  display: flex;
+}
+
+footer .footer-left {
+  width: 35%;
+  padding: 15px;
+}
+
+footer .footer-wikidescription {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 10px auto;
+  width: 350px;
+}
+
+footer .footer-wikidescription p {
+  margin: 0px 0px 0px 10px;
+  color: #54595d;
+  font-size: 14px;
+}
+
+footer .footer-wikidescription p a {
+  color: #36c;
+}
+
+footer .footer-wikidownload {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 30px auto;
+  padding: 10px;
+  width: 350px;
+  background-color: #f8f9fa;
+}
+
+footer .footer-wikidownload-textapp {
+  margin: 0 0 0 10px;
+}
+
+footer .footer-wikidownload-text {
+  width: 300px;
+}
+
+footer .footer-wikidownload-app {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
