@@ -320,3 +320,31 @@ footer .footer-right-app-text .text {
   margin: 0 0 0 10px;
   font-size: 13px;
 }
+
+.footer-termprivacy {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 13px;
+  color: #54595d;
+  height: 40px;
+}
+
+.footer-termprivacy a {
+  color: #36c;
+}
+
+.footer-termprivacy .aviable {
+  display: flex;
+}
+
+.footer-termprivacy .term nav ul {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+.footer-termprivacy .term nav ul li {
+  margin: 15px;
+}
