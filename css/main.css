@@ -1,3 +1,13 @@
+:root {
+  --width-med1: 41%;
+  --width-med2: 35%;
+  --width-med3: 33%;
+  --width-padd1: 9%;
+  --width-padd2: 15%;
+  --width-padd3: 17%;
+  --margin-up: 1em;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -37,76 +47,87 @@ main .main-logo-title p {
 }
 
 main .main-lenguages {
-  margin-top: 16px;
+  margin-top: 1em;
   width: 100%;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 main .main-lenguages-link1 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med1);
   display: flex;
   justify-content: flex-end;
-  padding-right: 80px;
+  padding-right: var(--width-padd1);
 }
 
 main .main-lenguages-link2 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med1);
   display: flex;
   justify-content: flex-start;
-  padding-left: 80px;
+  padding-left: var(--width-padd1);
 }
 main .main-lenguages-link3 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med2);
   display: flex;
   justify-content: flex-end;
-  padding-right: 140px;
+  padding-right: var(--width-padd2);
 }
 
 main .main-lenguages-link4 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med2);
   display: flex;
   justify-content: flex-start;
-  padding-left: 140px;
+  padding-left: var(--width-padd2);
 }
 main .main-lenguages-link5 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med3);
   display: flex;
   justify-content: flex-end;
-  padding-right: 150px;
+  padding-right: var(--width-padd3);
 }
 
 main .main-lenguages-link6 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med3);
   display: flex;
   justify-content: flex-start;
-  padding-left: 150px;
+  padding-left: var(--width-padd3);
 }
 main .main-lenguages-link7 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med2);
   display: flex;
   justify-content: flex-end;
-  padding-right: 140px;
+  padding-right: var(--width-padd2);
 }
 
 main .main-lenguages-link8 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med2);
   display: flex;
   justify-content: flex-start;
-  padding-left: 140px;
+  padding-left: var(--width-padd2);
 }
 main .main-lenguages-link9 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med1);
   display: flex;
   justify-content: flex-end;
-  padding-right: 80px;
+  padding-right: var(--width-padd1);
 }
 
 main .main-lenguages-link10 {
-  width: 50%;
+  margin-top: var(--margin-up);
+  width: var(--width-med1);
   display: flex;
   justify-content: flex-start;
-  padding-left: 80px;
+  padding-left: var(--width-padd1);
 }
 
 main .main-lenguages a strong {
