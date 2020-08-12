@@ -6,6 +6,7 @@
   --width-padd2: 15%;
   --width-padd3: 17%;
   --margin-up: 1em;
+  --width-lengen: 30%;
 }
 
 body {
@@ -448,6 +449,94 @@ footer .footer-right-app-text .text {
   }
 }
 @media screen and (max-width: 480px) {
+  body {
+    background-image: none;
+  }
+  main {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+  }
+
+  main .main-logo-title {
+    order: 1;
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Wikipedia-logo-v2.svg/1200px-Wikipedia-logo-v2.svg.png);
+    background-repeat: no-repeat;
+    background-size: 57px;
+    background-position-x: 31%;
+  }
+  main .main-logo-title img {
+    width: 150px;
+    margin-left: 50px;
+  }
+  main .main-logo-title p {
+    margin-top: 5px;
+    margin-left: 70px;
+    font-size: 1.2em;
+    font-weight: 500;
+  }
+
+  main .main-lenguages {
+    order: 3;
+  }
+  main .main-lenguages-link1 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link2 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link3 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link4 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link5 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link6 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link7 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link8 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link9 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+  main .main-lenguages-link10 {
+    width: var(--width-lengen);
+    padding: 1.5%;
+    justify-content: center;
+  }
+
+  main .main-search {
+    order: 2;
+    margin: 0 auto;
+  }
+  main .main-button-container {
+    order: 4;
+  }
 }
 @media screen and (max-width: 320px) {
 }
