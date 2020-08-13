@@ -392,7 +392,7 @@ footer .footer-right-app-text .text {
 @media screen and (max-width: 768px) {
   footer {
     height: 100%;
-    padding: 2% 2% 0 2%;
+    padding: 1%;
   }
 
   #footer-left-1 {
@@ -404,13 +404,14 @@ footer .footer-right-app-text .text {
   }
 
   footer .footer-left {
-    width: 100%;
+    width: 95%;
     margin-bottom: 1.5em;
   }
   footer .footer-wikidescription {
     display: block;
     text-align: center;
     width: 100%;
+    max-width: 70%;
   }
   footer .footer-wikidescription p {
     width: 100%;
@@ -433,8 +434,9 @@ footer .footer-right-app-text .text {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    width: 90%;
-    max-width: 90%;
+    width: 100%;
+    max-width: 100%;
+    padding: 3px;
   }
   footer .footer-wikidownload-logo {
     width: 100%;
@@ -455,7 +457,7 @@ footer .footer-right-app-text .text {
   main {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 auto;
+    margin: 2em 1em auto;
   }
 
   main .main-logo-title {
@@ -536,6 +538,50 @@ footer .footer-right-app-text .text {
   }
   main .main-button-container {
     order: 4;
+    margin: 0 auto;
+  }
+
+  hr {
+    border: none;
+    border-bottom: 1px solid #c8ccd1;
+    margin: 2em 1em 1em 1em;
+  }
+
+  footer .footer-wikidescription {
+    max-width: 90%;
+  }
+
+  footer .footer-right {
+    justify-content: space-around;
+  }
+  footer .footer-right-row {
+    width: 47%;
+    margin-left: 2%;
+  }
+
+  #footer-left-2 {
+    display: flex;
+    width: 100%;
+  }
+
+  .footer-termprivacy {
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .footer-termprivacy .aviable {
+    height: auto;
+  }
+  .footer-termprivacy .aviable p {
+    margin: 0.4em auto;
+  }
+  .footer-termprivacy .term {
+    height: auto;
+  }
+  .footer-termprivacy .term nav ul {
+    padding: 0;
+  }
+  .footer-termprivacy .term nav ul li {
+    margin: 0.4em 1em;
   }
 }
 @media screen and (max-width: 320px) {
