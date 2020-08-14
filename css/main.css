@@ -1,17 +1,23 @@
 :root {
-  --width-med1: 41%;
-  --width-med2: 35%;
-  --width-med3: 33%;
-  --width-padd1: 9%;
-  --width-padd2: 15%;
-  --width-padd3: 17%;
+  --width-med1: 46%;
+  --width-med2: 43%;
+  --width-med3: 42%;
+  --width-padd1: 4%;
+  --width-padd2: 7%;
+  --width-padd3: 8%;
+  --width-med1_1280: 43%;
+  --width-med2_1280: 39%;
+  --width-med3_1280: 37%;
+  --width-padd1_1280: 7%;
+  --width-padd2_1280: 11%;
+  --width-padd3_1280: 13%;
   --width-med1_768: 37%;
   --width-med2_768: 31%;
   --width-med3_768: 29%;
   --width-padd1_768: 13%;
   --width-padd2_768: 19%;
   --width-padd3_768: 21%;
-  --margin-up: 1em;
+  --margin-up: 0.8em;
   --width-lengen: 30%;
 }
 
@@ -398,7 +404,52 @@ footer .footer-right-app-text .text {
 
 /* ----- AQUI EMPIEZA EL RESPONSIVE ---- */
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1280px) {
+  main .main-lenguages-link1 {
+    width: var(--width-med1_1280);
+    padding-right: var(--width-padd1_1280);
+  }
+
+  main .main-lenguages-link2 {
+    width: var(--width-med1_1280);
+    padding-left: var(--width-padd1_1280);
+  }
+  main .main-lenguages-link3 {
+    width: var(--width-med2_1280);
+    padding-right: var(--width-padd2_1280);
+  }
+
+  main .main-lenguages-link4 {
+    width: var(--width-med2_1280);
+    padding-left: var(--width-padd2_1280);
+  }
+  main .main-lenguages-link5 {
+    width: var(--width-med3_1280);
+    padding-right: var(--width-padd3_1280);
+  }
+
+  main .main-lenguages-link6 {
+    width: var(--width-med3_1280);
+    padding-left: var(--width-padd3_1280);
+  }
+  main .main-lenguages-link7 {
+    width: var(--width-med2_1280);
+    padding-right: var(--width-padd2_1280);
+  }
+
+  main .main-lenguages-link8 {
+    width: var(--width-med2_1280);
+    padding-left: var(--width-padd2_1280);
+  }
+  main .main-lenguages-link9 {
+    width: var(--width-med1_1280);
+    padding-right: var(--width-padd1_1280);
+  }
+
+  main .main-lenguages-link10 {
+    width: var(--width-med1_1280);
+    padding-left: var(--width-padd1_1280);
+  }
 }
 @media screen and (max-width: 768px) {
   main .main-lenguages-link1 {
